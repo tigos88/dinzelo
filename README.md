@@ -67,13 +67,14 @@ Controlar dinheiro no Brasil tem particularidades que planilhas e apps estrangei
 | Recurso | O que faz |
 |---|---|
 | **Importar fatura** | Lê PDF ou imagem da fatura com IA, monta o cartão (final, limite, fechamento e vencimento), lança as compras, transforma "03/10" em série parcelada, marca o que já estava lançado e confere a soma com o total impresso na fatura. Nada é lançado antes da revisão, e o arquivo é descartado. |
-| **Visão do mês** | Saldo previsto, pago e a pagar, total nos cartões e percentual da renda comprometido. Os cards do painel podem ser reorganizados arrastando, inclusive pelo teclado. |
+| **Visão do mês** | Cumprimenta pelo nome e mostra o saldo previsto, pago e a pagar, total nos cartões e percentual da renda comprometido. Os cards do painel podem ser reorganizados arrastando, inclusive pelo teclado. |
 | **Cartões e parcelas** | Fatura do mês, limite comprometido, parcelas restantes e o mês em que cada uma termina. |
 | **Economize** | Encontra assinaturas somadas, tarifas e anuidade, juros e IOF, parcelas que acabam e sobra frequente, ordenados pelo quanto a pessoa economiza por ano. Cada dica pode ser marcada como "Já resolvi" ou "Não se aplica". |
 | **Espaços compartilhados** | O casal ou a família lança no mesmo espaço por convite com link. Cada um mantém seu login e um espaço pessoal privado, e o app mostra quem lançou o quê. |
 | **Planejamento** | Orçamento mensal por categoria, metas com prazo e referência da regra 50/30/20. |
 | **Comparativo e projeção** | Evolução de renda, despesas e saldo mês a mês, e projeção do ano com contas fixas, parcelas e média dos gastos variáveis. |
 | **Assistente com IA** | Perguntas em linguagem natural sobre os próprios dados, como "onde posso economizar este mês?". |
+| **Planos** | Página própria com o plano atual, os dias restantes do teste, o uso do mês, a assinatura pelo Stripe e uma tabela comparando o que cada plano inclui. |
 | **Modo privacidade** | Esconde os valores na tela com um toque, útil em lugar público. |
 | **Apps para iPhone e Android** | Mesma base de código, com acabamento de cada plataforma: área segura do notch, resposta tátil e estilos próprios. |
 
@@ -163,6 +164,10 @@ flowchart LR
 | Comparativo de 3 meses | Orçamentos, metas e projeção anual | |
 
 Toda conta nova começa com **10 dias de teste com tudo liberado**, sem cartão de crédito. O plano anual sai 33% mais barato.
+
+<p align="center">
+  <img src="imagens/planos.png" alt="Página de planos: 10 dias com tudo liberado, sem cartão de crédito" width="100%">
+</p>
 
 ## Próximos passos
 
